@@ -1,0 +1,264 @@
+/* CSS Document */
+
+﻿/*
+Theme Name: 黑白猪猪
+author url: http://www.love730.com/
+version: 1.0
+author: 《双陈记》情侣博客
+*/
+/* Global */
+*{margin:0; padding:0; outline:none;}
+body{margin:0 auto; padding:0; width:100%; font-family: '微软雅黑', Arial, Verdana, Sans-Serif; font-size:12px; text-align:left; color:#000; background-color:#eaeaea; font-weight:normal;}
+html{margin:0 auto; padding:0;}
+div,form,ul,ol,li,dl,dt,dd,span,p,button,textarea,blockquote,th,td {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input,select{line-height:16px;}
+img,a img{border:0;}
+ul,ol,li{list-style:none;}
+
+.clear{border-top:1px solid transparent !important; margin-top:-1px !important; border-top:0; margin-top:0; clear:both; visibility:hidden;}
+a,area {blr:expression(this.onFocus=this.blur())}
+/* for IE */
+:focus {-moz-outline-style: none;}
+/* for Firefox */
+a:link, a:visited{color:#525252; text-decoration:none;}
+a:hover{color:#F60; text-decoration:underline;}
+.menu-header_menu-container {width:950px;margin:0 auto;height:30px; background:#CCC;border:5px solid #ccc;
+-moz-border-radius:10px;/*仅Firefox支持，实现圆角效果*/
+-webkit-border-radius:10px;/*仅Safari,Chrome支持，实现圆角效果*/
+-khtml-border-radius:10px;/*仅Safari,Chrome支持，实现圆角效果*/
+border-radius:10px; }
+ul.menu { float:left;display:inline;}
+ul.menu li {float:left; padding:2px 5px; display:inline;margin:0 5px;}
+ul.menu li a { text-decoration:none; font-size:18px; line-height:30px;}
+ul.menu li a:hover { background:#FFF; color:#000;border:5px solid #fff;
+-moz-border-radius:5px;/*仅Firefox支持，实现圆角效果*/
+-webkit-border-radius:5px;/*仅Safari,Chrome支持，实现圆角效果*/
+-khtml-border-radius:5px;/*仅Safari,Chrome支持，实现圆角效果*/
+border-radius:5px;}}
+/* Header */
+.header{margin:0 auto; width:100%; height:200px; clear:both}
+.header-inner{margin:0 auto; width:960px; height:200px; background:#433E38 url(images/top_1.jpg)  no-repeat center 0; overflow:hidden;}
+.header-inner a{width:960px; height:227px; display:block; text-indent:-9999px;}
+.header_boy{background:url(images/top_boy_1.jpg)  no-repeat center 0;}
+.header_girl{background:url(images/top_girl_1.jpg)  no-repeat center 0;}
+.header_page{background:url(images/top_page_1.jpg)  no-repeat center 0;}
+.header_pagelist {background:url(images/top_page_1.jpg)  no-repeat center 0;} /*新加列表方式的页头*/
+/* Content */
+.wrapper{margin:0 auto; padding-top:5px; width:960px; background:#eaeaea url(images/wrap_1.jpg) repeat-y center 0; overflow:hidden;}
+.wrapper_boy{background:#F4F4FC url(images/wrap_boy_1.jpg) repeat-y center 0;}
+.wrapper_girl{background:#F4F4FC url(images/wrap_girl_1.jpg) repeat-y center 0;}
+.wrapper_page{background:#F4F4FC url(images/wrap_page_1.jpg) repeat-y center 0;}
+.wrapper_pagelist{background:#F4F4FC url(images/wrap_page_1.jpg) repeat-y center 0;}   /*新加列表方式的背景*/
+.content{float:left; width:960px;}
+.content_boy{float:left; padding-bottom:10px; width:380px;}
+.content_girl{float:right; padding-bottom:10px; width:380px;}
+.content_nng{background:none;}
+.content_pagelist{float:left; padding-bottom:10px; width:380px;}
+/*新加post信息结构*/
+.posttime-blue , .posttime-pink{width: 60px; height: 60px; clear: right; float: right; color: #FFFFFF; font-family:Tohama,Arial, Helvetica, sans-serif; border: 1px solid #999999;}
+.posttime-blue {background-color:#0184AF;}
+.posttime-pink {background-color:#FF4884;}
+.posttime-MY {padding:3px 0 5px 0; height: 15px; font-size: 9px; font-weight: bold; text-align: center; border-bottom: 1px solid #FFFFFF;}
+.posttime-D {font-weight: bold; font-size: 30px; text-align: center; padding-top: 10px;}
+.readmore {float: right; text-align: right; font-size:12px; position:relative; top: 10px;}
+
+/*新加评论数结构*/
+.cmtballoon-blue, .cmtballoon-pink, .cmtballoon-boy, .cmtballoon-girl, .cmtballoon-pagelist {height: 26px; width: 45px; background-repeat: no-repeat; text-align:center; float:left; padding-top: 2px; font-size:12px; font-weight: bold; color: #017CA5;}
+.cmtballoon-blue, .cmtballoon-boy, .cmtballoon-pagelist {background-image: url(images/commentballoon_blue_1.jpg);}
+.cmtballoon-pink, .cmtballoon-girl {background-image: url(images/commentballoon_pink_1.jpg);}
+.cmt-tag {font-size: 10px;font-weight:normal; position:relative; float:left; top: 12px;}
+.hori-line-boy {/*下一篇文章的分隔线*/ width: 100%; height: 50px; border-bottom: 1px solid #fff; color:#ffffff;}
+.hori-line-girl {/*下一篇文章的分隔线*/ width: 100%; height: 50px; border-bottom: 1px solid #000; color:#ffffff;}
+.homeentry {color: #4D463F;}
+.homeentry  ul li{padding-bottom: 15px; padding-right: 20px;}
+.post-individual {width: 100%; clear:both; margin-bottom: 10px;}
+blockquote, /*引用的格式*/pre {/*这里设定文章内引用的格式*/margin:15px auto 15px 20px; padding-left:15px; border-left:1px solid #8aab46; color:#545454 /*background:#edf1f5 url(./images/blockquote.gif) 3px 3px no-repeat; border:1px solid #ddd; padding:8px 12px 8px 40px; margin:5px 0;*/}
+/* Post List */
+.post{margin:10px 0px; padding:0px 10px; width:360px; line-height:20px; overflow:hidden;}
+.post h2{width:95%; padding:5px 0px 2px; font-size:16px; overflow:hidden;} /*标题长度和位置*/
+.post p{margin-bottom:10px;}
+.post ul, .post ol {padding-bottom:10px; color:#454545;}
+.post ul li{margin-left:20px; list-style:disc;}
+.post ol li{margin-left:20px; list-style:decimal;}
+.sub_desc{padding-bottom:10px; color:#666;font-weight:normal}
+.post_content{font-family: '宋体', Arial, Verdana, Sans-Serif;text-align:left;font-weight:normal;font-size: 12px;} /*列表文章内容设置*/
+.post_content_single{font-family: '宋体', Arial, Verdana, Sans-Serif;text-align:left;font-weight:normal;font-size: 14px;} /*单页文章内容设置*/
+.post_meta{padding:0px 0 8px; text-align:right;padding-top:10px;}   /*post meta的上边距(评论和阅读全文)*/
+.post_meta2{height:22px;}
+.post_meta strong{font-size:13px;}
+.post_cats{float:left;clear:both;}
+/* Boy Posts */
+/*.boy .post_meta{border-bottom:2px solid #12B1E4;}取消下划线*/
+.boy a:link, .boy a:visited{color:#fff; text-decoration:none;}
+.cmtballoon-blue a:link, .cmtballoon-blue a:visited {color:#ffffff;text-decoration:none;}/*设定评论数的颜色*/
+.cmtballoon-boy a:link, .cmtballoon-boy a:visited {color:#ffffff;text-decoration:none;}/*设定列表评论数的颜色*/
+.boy a:hover{ cursor:pointer; text-decoration:none;}
+.cmtballoon-blue a:hover {color:#F60;text-decoration:none;} /*设定评论数的鼠标停留颜色*/
+.cmtballoon-boy a:hover {color:#F60;text-decoration:none;} /*设定评论数的鼠标停留颜色*/
+/* Girl Posts */
+/*.girl .post_meta{border-bottom:2px solid #FFA4D1;}取消下划线*/
+.girl a:link, .girl a:visited{color:#000; text-decoration:none;}
+.cmtballoon-pink a:link, .cmtballoon-pink a:visited {color:#ffffff;text-decoration:none;}/*设定评论数的颜色*/
+.cmtballoon-girl a:link, .cmtballoon-girl a:visited {color:#ffffff;text-decoration:none;}/*设定评论数的颜色*/
+.girl a:hover{ cursor:pointer;text-decoration:none;}
+.cmtballoon-pink a:hover {color:#F60;text-decoration:none;} /*设定评论数的鼠标停留颜色*/
+.cmtballoon-girl a:hover {color:#F60;text-decoration:none;} /*设定评论数的鼠标停留颜色*/
+/* Single */
+.single_content_boy, .single_content_girl, .single_content_pagelist{padding:0 20px; width:720px; overflow:hidden;}
+.post_boy, .post_girl, .post_pagelist{width:700px;}
+.post_boy h2, .post_girl h2{font-size:18px;color:#000}
+.post_tag{float:right;}
+/* pagelist Posts */
+/*.pagelist .post_meta{border-bottom:2px solid #12B1E4;}取消下划线*/
+.pagelist a:link, .boy a:visited{color:#ffffff; text-decoration:none;}
+.cmtballoon-blue a:link, .cmtballoon-blue a:visited {color:#ffffff;text-decoration:none;}/*设定评论数的颜色*/
+.cmtballoon-pagelist a:link, .cmtballoon-pagelist a:visited {color:#ffffff;text-decoration:none;}/*设定列表评论数的颜色*/
+.pagelist a:hover{color:#F60; text-decoration:underline;}
+.cmtballoon-blue a:hover {color:#F60;text-decoration:none;} /*设定评论数的鼠标停留颜色*/
+.cmtballoon-pagelist a:hover {color:#F60;text-decoration:none;} /*设定评论数的鼠标停留颜色*/
+/* Showcase */
+.showcase{padding:15px 0px;}
+.showcase h2{padding-bottom:15px; font-size:16px; color:#017CA5;}
+.showcase ul li{float:left; width:210px; height:195px; margin-bottom:10px; padding:0 15px 5px 13px; border-bottom:1px solid #DDD; overflow:hidden;}
+.showcase ul li img{float:left; padding:2px 2px; width:210px; height:160px; background-color:#FFCC99}
+.showcase ul li h3{float:left; margin:5px 0px; width:200px; height:18px; font-size:13px; font-weight:normal; text-align:center; display:block; overflow:hidden;}
+/* Sidebar */
+.sidebar{float:left; padding:18px 10px; width:175px; overflow:hidden;} /*这里+ font-weight:normal;可以控制字体加组效果*/
+#logo {margin:0;padding:0}
+#logo h1 { text-indent:-999px; background:url(images/logo.gif) no-repeat;width:100px;height:50px;margin:0 auto;padding:0;margin-top:-22px;}
+.bloginfo{margin-bottom:2px; text-align:center; line-height:18px; color:#e89cc4; clear:both}
+.sidebar h2{padding:10px 0px 5px; width:175px; text-align:center; font-size:14px; color:#fff; background:url(images/bg_sidebar_h2_1.gif) no-repeat center bottom;}
+.sidebar ul{padding:0px 0px 5px 0px;}
+.sidebar ul li{margin-bottom:8px;}
+.sidebar ul li ul{padding-left:8px; margin:10px 0px 0px 0px;}
+.sidebar ul li ul li{margin-bottom:0px; padding-left:12px; line-height:22px; background:url(images/spot.gif) no-repeat 0 11px;border-bottom:1px  dashed #CCC;text-align:left;}
+.sidebar ul li ul li a {color:#e89cc4; text-decoration:none; }
+.sidebar ul li ul li a:hover {color:#FFF;text-decoration : none; position : relative; top : 1px; left : 1px}
+.sidebar ul li.widget{margin:0px 0px 10px 0px;}
+.sidebar ul li.widget_tag_cloud ul{padding:5px 10px;}
+.sidebar .widget ul li {line-height:20px; height:20px; overflow:hidden;}
+/*新加sidebar控制*/
+.sidebarbox a:visited, .sidebarbox a:link {font-weight: bold;}
+.sidebarbox li, .sidebarbox ul{font-weight:normal;}
+.sidebarbox1 a:link, .sidebarbox1 a:visited{color:#333;margin-bottom:0px; padding-left:12px; line-height:22px; background:url(images/spot.gif) no-repeat 0 11px;}
+.sidebarbox1 ul li, .sidebarbox1 ul li ul, .sidebarbox1 ul li.widget, .sidebarbox1 ul li.widget_tag_cloud ul {margin-left : -10px;width: 150px;}
+.sidebarbox1 {color:#017CA5}
+#feed img{ margin:5px 0px 0px 6px;}
+/* Search */
+.searchInput{background:url(images/search_input_1.gif) no-repeat;  height:20px; width:110px;border:none; margin-bottom:20px; *margin-bottom:0; float:left;padding-left:2px;margin-top:2px;color:#fff;}
+.searchBtn{background:url(images/search_btn_1.gif) no-repeat; height:20px; width:60px; border:none; color:#454545; cursor:pointer; float:right;margin-top:2px;}
+/* Page Navi */
+.pageNavi, .pageNavi2{padding:20px 20px; text-align:center;}
+.wp-pagenavi{margin:0 auto;}
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited{padding:4px 8px !important; margin: 2px; text-decoration:none !important; color: #0AA7D6 !important; font-weight:bold; border:1px solid #0AA7D6 !important;}
+.wp-pagenavi a:hover {color: #FFF !important;  background-color:#0AA7D6 !important; font-weight:bold !important;}
+.wp-pagenavi a:active {padding:2px 2px; margin:2px; text-decoration: none; border:1px solid #0AA7D6 !important;}
+.wp-pagenavi span.pages, .wp-pagenavi span.current, .wp-pagenavi span.extend {padding:4px 8px !important; margin:2px; color: #0AA7D6 !important; border:1px solid #0AA7D6 !important;}
+.wp-pagenavi span.current{font-weight:bold !important; color: #FFF !important; background-color:#FF3366 !important; border:1px solid #AA002B !important;}
+.page_next a, .page_pro a{float:right; padding:6px 10px; border:1px solid #0AA7D6; display:block; font-size:16px; font-weight:bold; text-align:center; text-decoration:none;text-transform:uppercase;}
+.page_pro a{margin-right:15px;}
+.pageNavi .left, .pageNavi2 .left{float:left;}
+.pageNavi .right, .pageNavi2 .right{float:right;}
+.pageNavi a:link, .pageNavi a:visited{padding:6px 10px; text-align:center; font-size:12px; font-weight:bold; color:#000; background-color:#fff;}
+.pageNavi a:hover{background-color:#000;color:#fff; text-decoration:none; }
+.pageNavi2 a:link, .pageNavi2 a:visited{padding:6px 10px; text-align:center; font-size:12px; font-weight:bold; color:#000; background-color:#dcdcdc}
+.pageNavi2 a:hover{background-color:#000;color:#fff; text-decoration:none; }
+/* comments */
+#comments {font-size: 14px;}
+#content .commentlist {font-size: 12px; list-style:none;}
+#comments, #respond {color:#444444; font-size:13px; font-weight:bold; line-height:30px; margin:5px 0 0 0;}
+#respond {padding-top:5px;}
+#commentform #comment {padding:5px 5px 5px 5px; width:669px; height:240px; *height:195px;background:url(images/coment_bg_1.jpg) no-repeat; border:none;margin:0;}
+#commentform p {padding:5px 20px 0;}
+#comments_corner { height:550px;width:707px; margin-top:5px;margin-bottom:20px; *margin-bottom:0;background:url(images/ct_bg.gif) no-repeat;}
+#comments_corner h2 {padding-left: 15px}
+#comment_textarea {width:800px; }
+#comment_textarea p span {margin-left:-30px;margin-top:-5px;}
+#author_info {}
+.smile {margin-left:3px;}
+.commentlist li {background:url(images/ct_li_bg.gif) repeat-x #FFF; margin-bottom:20px; border:1px solid #fff; padding:15px;}
+.commentmetadata {line-height:23px; height:20px;}
+.commentmetadata cite {font-weight:700; font-style:normal;}
+.comment-meta {margin-left:10px;}
+.commentlist p {line-height:23px; padding-left:50px;}
+.nocomments {color:#76767a; padding-left:10px; border-left:3px solid #DDD;}
+.commentlist .avatar {width:32px; height:32px; border:solid 1px #666; float:left; margin-right:15px; margin-top:5px;}
+.formfield_user {clear:left; margin:2px 0; padding:0;padding:5px 0 0 30px;width:215px;height:27px; background:url(images/user_bg_1.gif) no-repeat;overflow:hidden; font-size:12px; border:none;line-height:27px;}
+.formfield_mail {clear:left; margin:2px 0; padding:0;padding:5px 0 0 30px;width:215px;height:27px; background:url(images/mail_bg_1.gif) no-repeat;overflow:hidden; font-size:12px; border:none;line-height:27px;}
+.formfield_home {clear:left; margin:2px 0; padding:0;padding:5px 0 0 30px;width:215px;height:27px; background:url(images/home_bg_1.gif) no-repeat;overflow:hidden; font-size:12px; border:none;line-height:27px;}
+.button {height:32px; width:94px; border:none; color:#000; cursor:pointer; line-height:32px\9; *line-height:31px;background:url(images/button_bg_1.gif) no-repeat;margin:0; }
+.post-comments {padding:0 0 0 18px;}
+textarea {background:#FFF; border:1px solid #CCC; overflow:auto; padding:6px; margin:5px 0; font-size:12px; font-family:Verdana, Geneva, sans-serif; margin-bottom:20px;}
+.post_pro_next{margin:20px 0px; padding:0px 10px;}
+.alignleft{float:left;}
+.alignright{float:right;}
+/* Footer */
+.footer{margin:0 auto; padding:50px 0px 20px;margin-bottom:50px; width:960px; color:#525252; background:url(images/bottom_1.jpg) no-repeat center 0;}
+.footer_boy{background:url(images/bottom_boy_1.jpg) no-repeat center 0;}
+.footer_girl{background:url(images/bottom_girl_1.jpg) no-repeat center 0; }
+.footer_page{background:url(images/bottom_boy_1.jpg) no-repeat center 0;}
+.footer_page{background:url(images/bottom_boy_1.jpg) no-repeat center 0;}
+.footer_categorylist{background:url(images/bottom_boy_1.jpg) no-repeat center 0;}
+.footer p{color:#727272; text-align:center; line-height:22px; height:22px;}
+.footer a:link, .footer a:visited{color:#999; text-decoration:none; text-transform:capitalize;}
+.footer a:hover{color:#cccccc;}
+
+#reminder
+{
+ position:absolute;
+ border:1px solid #333;
+ background:red;
+ color:#333;
+ display:none;
+}
+#gprs { width:700px;}
+#gprs ul li { float:left; list-style:none}
+.h4_title {font-size:12px;clear:left;color:#fff; text-align:center}
+.labelEffect-orig, .labelEffect-highlight, .labelEffect-shadow {
+	position: absolute;
+	width: 100%; 
+	height: 100%;
+}
+#example1{
+    font-family :"Impact";
+    color       :#000;
+    font-size   :3em;
+    }
+
+.alignleft {
+ float:left;
+ text-align:left;
+ margin-right:10px;
+}
+.alignright {
+ float:right;
+ text-align:right;
+ margin-left:10px;
+}
+
+.maodian {padding-left:250px;
+}
+.maodian a {background:url(images/pinglun_bg.gif) left no-repeat;padding-left:20px;}
+
+#wudiShow {
+padding-left:40px;
+height:35px;/* 限制高度，单行显示 */
+line-height:35px;
+overflow:hidden;/* 超出高度部分遮罩 */
+float:left;
+width:500px;
+
+}
+
+#post_nav a:hover {border-bottom:1px #666 dotted}
+#post_nav span a {background:url(images/home_bg.png) left no-repeat;padding-left:18px;}
+.post_nav_title {color:#ffaa25;border-bottom:1px #666 dotted}
+
+#info {margin:10px 0;width:100%;border:2px #666 dotted;background:url(images/info_bg.gif) right no-repeat #eaeaea;padding:2px;}
+#info p {padding:0;margin:0}
+#info p b {color:#ffaa25}
+span.title {color:#f5a5cf;}
+
+.nearbypost {width:100%;border-top:1px #000 dotted}
+

@@ -1,0 +1,1 @@
+<p>Copyright©2010 <a href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> is proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a> 主题赞助：<a href="http://love730.com">《双陈记》情侣博客</a></p>
